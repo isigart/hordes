@@ -1,5 +1,5 @@
 import type {
-  BuildProfile, DamageNumber, Enemy, Hero, Minion, Projectile, World, XpOrb,
+  BuildProfile, Enemy, Hero, Minion, Projectile, World,
 } from "./types";
 import { derived, gainXpShared, xpForLevel } from "./stats";
 import { spawnBoss, spawnCluster, spawnEnemy, spawnRow } from "./enemies";
